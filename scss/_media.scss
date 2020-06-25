@@ -1,0 +1,139 @@
+@media (max-width: 1220px) {
+	.clients__inner {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.clients__name {
+		padding: 20px 0;
+	}
+
+	.contacts__suptext--message textarea {
+		width: 515px;
+	}
+
+	.contacts__inner {
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.contacts__content--first {
+		margin: 0;
+	}
+
+	.contacts__btn {
+		margin: 30px auto 0;
+	}
+
+	.contacts {
+		textarea {
+			width: 310px;
+		}
+	}
+
+	.contacts__inner {
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 1160px) {
+	.skills__inner {
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+
+	.skills__content {
+		margin-left: 70px;
+	}
+}
+
+@media (max-width: 940px) {
+
+	.skills__content {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	nav {
+		display: none;
+	}
+}
+
+
+
+
+@media (max-width: 776px) {
+	.skills__photo {
+		text-align: center;
+
+		img {
+			width: 30%;
+		}
+	}
+
+}
+
+@media (max-width: 612px) {
+	.work__text {
+		margin-bottom: 80px;
+	}
+
+	.work__inner {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 588px) {
+	.team__inner {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 556px) {
+	.services__wrapper {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 525px) {
+	.skills__content {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.skills__title {
+		font-size: 23px !important;
+	}
+
+	.intro__title {
+		font-size: 34px;
+	}
+
+	.intro__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 588px) {
+	.reviews__title {
+		font-size: 35px !important;
+	}
+}
+
+@media (max-width: 430px) {
+	.contacts__inner {
+		max-width: 330px;
+	}
+
+	.contacts__content input {
+		width: 270px;
+	}
+
+	.contacts textarea {
+		width: 270px;
+	}
+}

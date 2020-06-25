@@ -1,0 +1,32 @@
+$gray: #898989;
+$dark: #6c6c6c;
+$yellow: #fcac45;
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@import "_header";
+@import "_intro";
+@import "_skills";
+@import "_team";
+@import "_services";
+@import "_clients";
+@import "_work";
+@import "_reviews";
+@import "_contacts";
+@import "_footer";
+@import "_media";

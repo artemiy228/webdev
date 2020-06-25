@@ -1,0 +1,82 @@
+.skills {
+	width: 100%;
+	min-height: 610px;
+	padding: 100px 0;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		margin-left: 170px;
+	}
+
+	&__title {
+		color: #111;
+		padding-top: 30px;
+		font-size: 31px;
+		font-weight: 300;
+		color: #222;
+		text-transform: uppercase;
+		position: relative;
+
+		&:after {
+			position: absolute;
+			content: '';
+			display: block;
+			bottom: -20px;
+			width: 100%;
+			height: 4px;
+			background-color: $yellow;
+		}
+
+		span {
+			font-weight: 700;
+			color: #222;
+		}
+	}
+
+	&__text {
+		color: $dark;
+		font-size: 18px;
+		font-weight: 400;
+		max-width: 445px;
+		margin: 55px 0 40px;
+	}
+
+	&__desc {
+		display: flex;
+		flex-direction: column;
+		color: #7b7b7b;
+	}
+
+	&__block {
+		font-style: italic;
+
+		span {
+			font-style: normal;
+			color: #656565;
+			font-weight: 700;
+			position: relative;
+			padding-left: 20px;
+
+			&::before {
+				position: absolute;
+				display: block;
+				content: '';
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 14px;
+				height: 15px;
+				background-image: url('../img/dotts.png');
+			}
+		}
+
+		&:nth-child(2) {
+			margin: 15px 0;
+		}
+	}
+
+}

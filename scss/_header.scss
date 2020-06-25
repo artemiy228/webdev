@@ -1,0 +1,61 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 5;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-transform: uppercase;
+		padding-top: 60px;
+	}
+
+	&__logo {
+		a {
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: 800;
+			color: #fff;
+			letter-spacing: 1px;
+		}
+	}
+
+	.nav {
+		&__link {
+			position: relative;
+			margin-right: 30px;
+			text-decoration: none;
+			color: #fff;
+			font-size: 14px;
+			font-weight: 700;
+
+			&:after {
+				position: absolute;
+				display: block;
+				content: "";
+				bottom: -10px;
+				left: 0px;
+				width: 0;
+				height: 3px;
+				background-color: #fcac45;
+				left: 50%;
+				transform: translateX(-50%);
+				transition: width 0.3s ease-out;
+			}
+
+			&:hover:after,
+			&:focus:after {
+				width: 100%;
+				/*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+}

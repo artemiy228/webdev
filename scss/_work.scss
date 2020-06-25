@@ -1,0 +1,35 @@
+.work {
+	min-height: 1330px;
+	width: 100%;
+	background-color: #fff;
+	padding: 100px 0;
+
+	&__title {
+		color: #000;
+		margin-bottom: 80px;
+
+		span {
+			font-weight: 300;
+		}
+	}
+
+	&__text {
+		text-align: center;
+		color: $dark;
+		font-style: italic;
+		margin-bottom: 175px;
+	}
+
+	// 263 237
+	&__wrapper {
+		width: 263px;
+		height: 237px;
+		margin: 30px 10px;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}

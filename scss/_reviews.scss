@@ -1,0 +1,33 @@
+.reviews {
+	padding: 100px 0 170px;
+	background-color: #000;
+	min-height: 560px;
+	width: 100%;
+
+	&__title {
+		color: #fff;
+
+		span {
+			font-weight: 300;
+		}
+	}
+
+	&__text {
+		font-weight: 600;
+		font-size: 18px;
+		text-align: center;
+		max-width: 830px;
+		margin: 0 auto 50px;
+	}
+
+	&__desc {
+		text-align: center;
+		color: $gray;
+
+		span {
+			font-weight: 300;
+			color: $dark;
+
+		}
+	}
+}

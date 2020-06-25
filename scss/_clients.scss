@@ -1,0 +1,21 @@
+.clients {
+	background-color: #000;
+	min-height: 520px;
+	width: 100%;
+	padding: 100px 0 200px;
+
+	&__title {
+		margin-bottom: 140px !important;
+
+		span {
+			font-weight: 300 !important;
+		}
+	}
+
+	&__inner {
+		padding: 0 90px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
